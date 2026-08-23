@@ -5,7 +5,7 @@ name: Install php
 on: workflow_dispatch
 jobs:
      job-install-php
-     runs-on: ubuntu-latest
+     runs-on: windows-latest
      steps:
       - name: update apt repo
         run: apt update
