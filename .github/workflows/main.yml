@@ -1,0 +1,17 @@
+
+
+
+name: Install php
+on: workflow_dispatch
+jobs:
+     job-install-php
+     runs-on: ubuntu-latest
+     steps:
+      - name: update apt repo
+        run: apt update
+      - name install php
+        run: sudo apt install php -y
+      - name phpe
+        run: php --version
+
+        
